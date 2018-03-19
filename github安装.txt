@@ -1,0 +1,15 @@
+1.sudo apt-get install git
+
+2.git config --global user.name "woider"
+  git config --global user.email "woider@gmail.com"
+
+3.sudo apt-get install ssh   #Ubuntu 安装 SSH
+  ps -e | grep sshd          #查看 SSH 服务状态
+
+4.ls -al ~/.ssh              #查看 ssh key 是否存在
+  ssh-keygen -t rsa -C "woider@gmail.com"        #生成 SSH KEY
+
+5.ls-a       #查看ssh key
+
+6.vim id_rsa.pub    #打开 id_rsa.pub 文件      
+

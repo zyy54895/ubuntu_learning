@@ -1,0 +1,11 @@
+1.解压
+
+2.进入文件夹，进入bin，运行pycharm.sh（sudo ./pycharm.sh）
+
+3.sudo mv pycharm-community-181.3986.3/ /opt/   #将pycharm文件夹移动至opt文件夹
+
+4.sudo ln -s /opt/pycharm-community-181.3986.3/bin/pycharm.sh /usr/bin/pycharm  #创建快捷方式
+
+　sudo mv chromedriver  /usr/local/bin/chromedriver
+
+

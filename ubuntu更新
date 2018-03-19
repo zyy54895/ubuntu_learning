@@ -1,0 +1,11 @@
+1.sudo apt update 
+
+2.apt list --upgradable 
+
+3.sudo apt upgrade
+
+4.sudo apt auotoremove
+
+5.sudo rm /usr/lib/firefox/defaults/pref/all-ubuntukylin.js /usr/lib/firefox/ubuntukylin.cfg
+删除firefox默认主页
+

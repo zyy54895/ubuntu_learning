@@ -1,0 +1,27 @@
+1.下载jdk,并解压缩
+
+2.移动至usr/java文件夹 sudo mv 文件夹名称 /opt
+
+3.修改profile文件 
+   sudo gedit /etc/profile  #打开文件
+   unset i
+unset -f pathmunge
+
+
+export JAVA_HOME=/usr/java/jdk1.8.0_60
+
+export JAVA_BIN=/usr/java/jdk1.8.0_60/bin
+
+export PATH=$PATH:$JAVA_HOME/bin
+
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+export JAVA_HOME JAVA_BIN PATH CLASSPATH
+
+4.source /etc/profile
+
+5.下载eclipse,解压缩至/usr/java文件夹
+  mkdir jre
+  cd jre
+  ln -s /usr/java/jdk-9.0.4/bin
+6.

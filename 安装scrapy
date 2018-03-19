@@ -1,0 +1,6 @@
+
+1.sudo apt-get install build-essential python3-dev libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev zlib1g-dev 
+
+2.pip3 install pyOpenSSL cryptography cffi pycparser
+
+3.pip3 install scrapy 

@@ -1,0 +1,6 @@
+1.curl -s https://raw.githubusercontent.com/TurboLabIt/zzupdate/master/setup.sh | sudo s
+
+2.sudo cp /usr/local/turbolab.it/zzupdate/zzupdate.default.conf /etc/turbolab.it/zzupdate.conf
+
+3.sudo zzupdate
+
